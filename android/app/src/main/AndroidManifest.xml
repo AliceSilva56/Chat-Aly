@@ -6,7 +6,7 @@
     <application
         android:label="Chat Aly"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@drawable/logo_chat">
         <activity
             android:name=".MainActivity"
             android:exported="true"
