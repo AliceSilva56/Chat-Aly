@@ -1,0 +1,31 @@
+name: chat_aly
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  audioplayers: ^6.1.2
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - img/1.png
+    - img/qrcode.png
+    - som/Aly.mp3
+    - img/aly.png
+    - img/aly1.png
+  fonts:
+    - family: Sacramento
+      fonts:
+        - asset: font/Sacramento-Regular.ttf
